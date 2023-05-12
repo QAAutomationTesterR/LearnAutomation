@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Exercise"  verbose = "2">   
+<test name = "Practise">
+<parameter name = "SName" value = "Ragu">
+
+
+</parameter>
+
+<classes>
+
+
+
+<class name = "testNG.Exe">
+
+</class>
+
+
+
+</classes>
+
+
+
+
+
+
+
+
+
+
+
+</test>
+
+
+
+
+
+
+
+
+
+
+
+</suite>

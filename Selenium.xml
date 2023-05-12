@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Test Suite" verbose = "2" parallel = "methods" thread-count="2" >
+<listeners>
+<listener class-name="testNG.Listeners"></listener>
+
+</listeners>
+<test name = "Test Cases">
+<classes>
+<class name = "testNG.Parameter"></class>
+</classes>
+</test>
+</suite>
+
+
+<!-- 
+<suite name = "Test Suite" verbose = "2" parallel = "methods" thread-count="2">
+<test name = "Test Cases">
+<classes>
+<class name = "testNG.Parameter"></class>
+</classes>
+</test>
+</suite>
+ -->
+
+
+
+<!-- 
+<suite name = "Test Suite" verbose = "2">
+<test name = "Test Cases">
+
+<parameter name = "Report" value = "Ajay"></parameter>
+<classes>
+<class name = "testNG.Parameter"></class>
+</classes>
+</test>
+</suite>
+ -->
+
+
+
+
+
+<!-- 
+<suite name = "Test Suite" verbose = "2">
+<test name = "Test Cases">
+
+<groups>
+<run>
+
+<include name = "Oppo"></include>
+<include name = "Samsung"></include>
+<include name = "Realme"></include>
+
+<exclude name = "Motorola"></exclude>
+
+</run>
+</groups>
+<classes>
+<class name = "testNG.GroupinginTestNG"></class>
+</classes>
+</test>
+</suite>
+
+ -->
+
+
+<!-- 
+
+<suite name = "Test Suite" verbose = "2">
+<test name = "Test Cases">
+<classes>
+<class name = "testNG.Complex"></class>
+<class name = "testNG.SkipTestCase"></class>
+<class name = "testNG.SampleTestCase"></class>
+<class name = "testNG.PrioritizeTestcase"></class>
+</classes>
+</test>
+</suite> -->
