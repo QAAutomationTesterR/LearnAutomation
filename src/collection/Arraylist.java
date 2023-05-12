@@ -15,7 +15,7 @@ public class Arraylist {
 		//Duplicate values are Allowed
 		
 		ArrayList al = new ArrayList<>();
-		
+		al.add("GITHUB");
 		al.add("Selenium");
 		al.add("Kanban");
 		al.add("TestNG");
